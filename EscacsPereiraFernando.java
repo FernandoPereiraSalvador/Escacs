@@ -9,12 +9,13 @@ package com.mycompany.escacspereirafernando;
  * @author Fernando
  */
 // Hecho por: Fernando José Pereira Salvador
+// 1 DAM Programacion
 // Comentario prueba
 import java.util.Arrays;
 
 public class EscacsPereiraFernando {
 
-    //Funcion para crear el tablero 
+    //Funcion para crear el tablero de ajedrez 
     public static char[][] crearTablero() {
         int numeroFil;
         int numeroCol;
@@ -35,7 +36,7 @@ public class EscacsPereiraFernando {
         return tablero;
     }
 
-    // Funcion para mostrar el tablero 
+    // Funcion para mostrar el tablero de ajedrez
     public static void mostrarTablero(char tablero[][], char[] letras) {
 
         int numeroFil = tablero.length;
